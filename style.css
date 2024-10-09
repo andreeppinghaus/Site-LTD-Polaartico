@@ -1,3 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Sombra menu */
 .box-shadow {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
+/* Sombra menu */
+
+/* Inicio Página principal */
+.bgimg {
+    height: 100vh;
+    position: relative;
+}
+.text {
+    text-align: center;
+    padding: 50px 0px;
+}
+.text h1 {
+    margin-top: 29px;
+    margin-bottom: 34px;
+    position: relative;
+}
+.text p {
+    font-size: 27px;
+    position: relative;
+}
+.bgimg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/imgs/ar001.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    /* background-attachment: fixed; */
+}
+.bgimg .btn {
+    position: absolute;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    background-color: #0c4f9b;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    padding: 30px 0;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-inner img {
+    margin: 0 50px;
+    height: 40px;
+    max-height: 40px;
+    flex-shrink: 0;
+    animation: slide 34s linear infinite;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-2827px);
+    }
+}
+/* Fim Página principal */
