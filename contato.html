@@ -47,10 +47,69 @@
     </div>
   </nav>
   <!-- Fim Navegação -->
-
+  <hr>
+  <br>
   <!-- Inicio seção contato -->
   <section>
+    <div class="container">
+      <h2>Formulário de Contato</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form class="row g-3">
+            <div class="col-12">
+              <label for="inputNome" class="form-label">Nome completo</label>
+              <input type="text" class="form-control" id="inputNome" placeholder="Digite seu nome completo" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputTelefone" class="form-label">Telefone</label>
+              <input type="tel" class="form-control" id="inputTelefone" placeholder="Digite seu número" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu email" required>
+            </div>
+            <div class="col-md-6">
+              <label for="cidade" class="form-label">Cidade</label>
+              <select class="form-control" id="cidade" required>
+                <option value="">Escolha uma cidade</option>
+                <option value="cidade1">Rio de Janeiro, RJ</option>
+                <option value="cidade2">Caxias, RJ</option>
+                <option value="cidade3">Nova Iguaçu, RJ</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="setor" class="form-label">Setor</label>
+              <select class="form-control" id="destinatario" required>
+                <option value="">Escolha um setor</option>
+                <option value="departamento1">Financeiro</option>
+                <option value="departamento2">Comercial</option>
+                <option value="departamento3">SAC</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            <div class="col-12 form-check">
+              <input type="checkbox" class="form-check-input" id="nao-e-robo" required>
+              <label class="form-check-label" for="nao-e-robo">Eu não sou um robô</label>
+            </div>
+            <div class="col-12 text-start">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
 
+        <div class="col-md-6 text-center">
+          <h2>Localização</h2>
+          <p>Rua do Sanatório, 52 - Madureira, RJ - CEP: 12345-678</p>
+          <div class="embed-responsive embed-responsive-16by9 mx-auto">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.910984080166!2d-43.3331872246906!3d-22.87974647927416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9962d340231d7b%3A0x957f49cd6ed3c876!2sR.%20Sanat%C3%B3rio%2C%2052%20-%20Cascadura%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021350-192!5e0!3m2!1spt-BR!2sbr!4v1728511800003!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
   <!-- Fim seção contato -->
 
