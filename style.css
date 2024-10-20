@@ -101,11 +101,6 @@ a {
         display: table;
     }
 }
-#example1 {
-    border: 5px solid #0c4f9b;
-    padding: 10px;
-    border-radius: 25px;
-}
 
 .section_faq {
     width: 70%;
@@ -175,4 +170,30 @@ footer {
 .borda {
     border: 1px solid #dadada;
     padding: 30px;
+}
+
+.btn-formulario .btn {
+    background-color: #0c4f9b;
+}
+
+.btn-formulario .btn:hover {
+    background-color: #0b5ed7;
+}
+
+.aspas {
+    font-size: 200px;
+    color: #0c4f9b;
+}
+
+.depoimento1 {
+    position: relative;
+}
+
+.depoimento1::before {
+    position: absolute;
+    font-size: 5rem;
+    content: "❝";
+    left: -5px;
+    top: -30px;
+    color: #0c4f9b;
 }
