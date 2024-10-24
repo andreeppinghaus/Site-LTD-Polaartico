@@ -197,3 +197,20 @@ footer {
     top: -30px;
     color: #0c4f9b;
 }
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.whatsapp-icon path {
+    transition: fill 0.2s ease;
+}
+
+.whatsapp-icon:hover path {
+    fill: #0b5ed7;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
