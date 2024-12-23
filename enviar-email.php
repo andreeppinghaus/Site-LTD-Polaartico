@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Configurações do email
-    $destinatario = "seuemail@dominio.com";  // Substitua pelo seu e-mail
+    $destinatario = "atendimento@poloartico.com.br";  // Substitua pelo seu e-mail
     $assunto = "Novo contato de $nome";
     $corpo_email = "Nome: $nome\n";
     $corpo_email .= "Email: $email\n\n";
